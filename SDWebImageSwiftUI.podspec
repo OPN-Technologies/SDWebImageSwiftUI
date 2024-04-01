@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDWebImageSwiftUI'
-  s.version          = '2.2.6'
+  s.version          = '2.2.7'
   s.summary          = 'SwiftUI Image loading and Animation framework powered by SDWebImage'
 
   s.description      = <<-DESC
@@ -25,6 +25,7 @@ It brings all your favorite features from SDWebImage, like async image loading, 
   s.osx.deployment_target = '10.15'
   s.tvos.deployment_target = '13.0'
   s.watchos.deployment_target = '6.0'
+  s.visionos.deployment_target = '1.0'
 
   s.source_files = 'SDWebImageSwiftUI/Classes/**/*', 'SDWebImageSwiftUI/Module/*.h'
   s.pod_target_xcconfig = {
